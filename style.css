@@ -1,33 +1,78 @@
 /* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
 /* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
 body {
-    background: rgb(27, 25, 48);
+    background: rgb(53, 28, 20);
     color: azure;
+    background-size: cover;
+}
+
+.bodycontainer {
+    position: relative;
+    width: 100%;
+}
+
+.imagecontainer {
+    position: relative;
+    width: 100%;
+}
+
+#imgOne {
+    left: 400px;
+    top: 200px;
+    width: 900px;
+    height: 700px;
+
+}
+
+#cloudsection {
+    top: 300px;
+    left: 100px;
+    width: 300px;
+    height: 400px;
+}
+
+#imgThree {
+    top: 2000px;
+    left: 900px;
+    width: 300px;
+    height: 400px;
+}
+
+#imgFour {
+    top: 200px;
+    left: 100px;
+    width: 300px;
+    height: 400px
+}
+
+.imagecontainer > img {
+    width: 100%;
+    height: 100%;
+}
+
+#dirtywindow {
+    width: 30%;
+    left: 660px;
 }
 
 h1 {
     color: rgb(243, 255, 255);
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.712);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: lighter;
+    margin-top: 80px;
 }
 
-p {
-    color: rgb(242, 245, 240);
+#cloudsection {
+cursor: url(assets/images/plane1.jpg),auto;
 }
 
-footer {
-    position: fixed; bottom: 0em;
-}
 
-/* to call a class put a . before its name */
-.newacronym{
-    color: aquamarine;
-}
-
-.box1 {
-    border: thick double hotpink;
-    padding: 1em;
-}
