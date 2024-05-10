@@ -6,6 +6,13 @@ body {
     background-size: cover;
 }
 
+.cursor {
+    cursor: none;
+    font-size: x-large;
+    color: rgb(31, 14, 11);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
 .bodycontainer {
     position: relative;
     width: 100%;
@@ -54,7 +61,6 @@ body {
 
     #coffee {
     left: 680px;
-    
     }
 
     #rainbow {
@@ -79,6 +85,12 @@ body {
     top: 210px;
     }
 
+
+.imagecontainer + .hide {
+    display: block;
+    color: aliceblue;
+}
+
     #latteart {
     width: 30%;
     left: 560px;
@@ -94,6 +106,23 @@ body {
     left: 560px;
     }
 
+    #forest1 {
+    width: 30%;
+    left: 560px;
+    }
+    #forest2 {
+    width: 30%;
+    left: 560px;
+    }
+    #forest3 {
+    width: 30%;
+    left: 560px;
+    }
+
+    #sunset {
+    width: 30%;
+    left: 560px;
+    }
 
 h1 {
     color: rgb(197, 181, 167);
