@@ -179,12 +179,10 @@ body {
         
     #themagicishere {
     left: 1499px;
-    margin-top: -300px;
-}
-
-    #somewhere {
-    margin-top: 100px;
+    margin-top: -400px;
+    color:  rgb(35, 75, 102);
     }
+
 
 h1 {
     color: rgb(197, 181, 167);
@@ -222,7 +220,7 @@ h5 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
-    margin-top: 400px;
+    margin-top: 499px;
     font-size: x-large;   
 }
 h6 {
