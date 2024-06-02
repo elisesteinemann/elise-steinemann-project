@@ -154,6 +154,13 @@ body {
     left: 620px;
     }
 
+    #rainbow1 {
+    left: 560px;
+    }
+    #rainbow2 {
+        left: 560px;
+        }
+
     .hiddentext {
     display: none;
     text-align: center;
@@ -189,6 +196,27 @@ body {
     top: -40.7%;
     }
 
+    #pit {
+    left: 170px;
+    }
+
+    #switzerland {
+    margin-top: -46%;
+    left: 1100px;
+    }
+    #tassie {
+    margin-top: 2%;
+    left: 1100px;
+    }
+    #sydney {
+    margin-top: 2%;
+    left: 1100px;
+    }
+
+    #swissmountain {
+    left: 560px;
+    }
+
 h1 {
     color: rgb(197, 181, 167);
     text-align: center;
@@ -220,6 +248,7 @@ h4 {
     margin-top: 20px;
     font-size: x-large;
 }
+
 h5 {
     color: rgb(243, 255, 255);
     text-align: center;
@@ -233,3 +262,4 @@ h6 {
     font-size: larger;
     margin-top: -12%;
 }
+
