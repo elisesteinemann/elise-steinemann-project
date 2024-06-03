@@ -217,6 +217,15 @@ body {
     left: 560px;
     }
 
+    #sailboat {
+    top: -78%;
+    left: 970px;
+    }
+
+    #ocean {
+    left: 469px;
+    top: 100px;
+    }
 h1 {
     color: rgb(197, 181, 167);
     text-align: center;
